@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilos4.css">
+    <link rel="icon" href="../IMG/1946138.png" type="image/x-icon">
+    <title>Energía Azul</title>
+</head>
+<body>
+    <!--Navegador-->
+    <header>
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="../IMG/1946138.png" alt="Logo" class="logo">
+                <h1>Energía Azul</h1>
+            </div>
+            <nav>
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+                <ul class="nav-links">
+                    <li><a href="../HTML/index.html">Inicio</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Div para la visualización de la Tabla-->
+<div id="content">
+        <h2 class="titulo2">Datos Historicos Globales de la Energia Hidroelectrica💦​​</h2>
+        <div id="table-container-wrapper"></div>
+        <canvas id="chart" width="800" height="-0.5"></canvas>
+    </div>
+
+    <!--Main para la visualización de las Graficas-->
+    <main>
+        <section id="charts">
+            <h2 class="titulo2">Graficas - Energias Renovables</h2>
+            <div id="chart-container">
+                <canvas id="bar-chart"></canvas>
+                <canvas id="pie-chart"></canvas>
+                <canvas id="line-chart"></canvas>
+                <canvas id="area-chart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer id="footer">
+        <p>Números: +123456789, +987654321, +123987456</p>
+        <p>Correos: contacto@pagina.com, info@pagina.com, soporte@pagina.com</p>
+        <p>
+            Redes Sociales: 
+            <a href="https://facebook.com" target="_blank">Facebook</a>, 
+            <a href="https://instagram.com" target="_blank">Instagram</a>, 
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+    
+    <script src="../JS/graficas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../JS/dashboard.js"></script>
+
+</body>
+</html>
